@@ -1,11 +1,11 @@
 # CNN_Aereal_Objects
-El objetivo delproyecto es el desarrollo de una red neuronal convolucional para la clasificación de imágenes de diferentes objetos aéreos.<br>
+El objetivo del proyecto es el desarrollo de una red neuronal convolucional para la clasificación de imágenes de diferentes objetos aéreos.<br>
 
-La red neuronal convolucional clasificará las imágenes en 7 clases diferentes (asociadas a cada uno de los subdirectorios) y posteriormente, en función de esta clasificación, se le asignará un riesgo a la imagen que se ha detectado:
-NO HAY RIESGO Imágenes de pájaros 
-POCO RIESGO: Imágenes de aviones civiles, paracaídas, dirigibles, globos, parapentes, transbordadores espaciales
-RIESGO MEDIO: Imágenes de drones y helicópteros. 
-RIESGO ALTO: Imágenes de aeronaves militares y misiles.
+La red neuronal convolucional clasificará las imágenes en 7 clases diferentes (asociadas a cada uno de los subdirectorios) y posteriormente, en función de esta clasificación, se le asignará un riesgo a la imágen que se ha detectado:
+- NO HAY RIESGO: Imágenes de pájaros 
+- POCO RIESGO: Imágenes de aviones civiles, paracaídas, dirigibles, globos, parapentes, transbordadores espaciales
+- RIESGO MEDIO: Imágenes de drones y helicópteros. 
+- RIESGO ALTO: Imágenes de aeronaves militares y misiles.
 
 Para la elaboración del presente trabajo se han utilizado diferentes librerías del lenguaje de programación Python como pueden ser TensorFlow, Keras, Matplotlib, Scikit-Learn o Pandas entre otras.<br>
 El dataset que utilizo está compuesto por más de 41600 imágenes de diferentes resoluciones que he descargado de distintas fuentes y se han almacenado en un directorio local --> FLY.zip<br>
@@ -19,7 +19,7 @@ Dentro de este directorio se han agrupado las imágenes por clases teniendo los 
 - bird (incluye imágenes de diferentes tipos de pájaros),
 - others (incluye diferentes imágenes de paracaídas, dirigibles, globos, parapentes, transbordadores espaciales).<br>
 
-Las 41600 imágenes se han distribuído de la siguiente forma:
+Las más de 41600 imágenes se han distribuído de la siguiente forma:
 - 8165 imágenes para plane. 
 - 7330 imágenes para military_plane. 
 - 5103 imágenes para bird. 
@@ -28,7 +28,7 @@ Las 41600 imágenes se han distribuído de la siguiente forma:
 - 5149 imágenes para dron
 - 7449 imágenes para missile
 
-Organización del proyecto:
+<u>Organización del proyecto:</u>
 - Elección correcta del dataset. Ajustar la cantidad y calidad de las imágenes obtenidas de repositorios públicos de diferentes páginas web
 - Realizar el preprocesamiento del dataset de imágenes. Normalizar los datos, conversión de los datos al tipo correcto, elección de la resolución de las imágenes y si estas serán a color o en blanco y negro. 
 - Establecer la arquitectura general que tendrá la red neuronal. Decidir cuántas capas convolucionales tendrá la red. 
